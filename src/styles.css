@@ -1,0 +1,81 @@
+html {
+    background-color: rgb(34, 33, 33);
+    color: white
+}
+
+
+/* Tag Cloud */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+
+
+.tagcloud {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.tagcloud--item {
+    color: #4794f8;
+    text-transform: uppercase;
+}
+
+.tagcloud--item:hover{
+    cursor: pointer;
+    color:  #284bad;
+}
+
+/* About */
+
+.link {
+    text-decoration: none;
+    color: #4794f8;
+}
+
+.link:hover{
+    color: #284bad;
+}
+
+/* Footer */
+
+.social-icon {
+    color: #fff;
+    margin: 0 1.2rem;
+}
+
+.social-icon:hover{
+    color: #4794f8;
+    transform: scale(1.2);
+}
+
+/* Projects */
+.project {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 8px;
+}
+
+.project-list-container {
+    position: relative;
+  }
+  
+  .project-list-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+  }
+  
+  .project-list {
+    margin: 0 auto;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+  }
