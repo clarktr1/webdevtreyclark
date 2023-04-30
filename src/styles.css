@@ -52,30 +52,47 @@ html {
 }
 
 /* Projects */
+
 .project {
-    height: 10rem;
-    width: 10rem;
     border-radius: 8px;
 }
 
-.project-list-container {
-    position: relative;
-  }
-  
-  .project-list-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-    z-index: 1;
-  }
-  
-  .project-list {
-    margin: 0 auto;
-    width: 70vw;
+.overlay{
     display: flex;
-    justify-content: center;
-    z-index: 2;
-  }
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #fcfcfc7b;
+    z-index: 999;
+    opacity: 0;
+    border-radius: 8px;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.overlay a {
+    margin: 0 auto
+}
+
+.overlay a:hover{
+    cursor: default;
+}
+
+.overlay button {
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    padding: 6%;
+    background-color: #284bad;
+    color: #fff;
+    font-weight: 500;
+}
+
+.overlay button:hover{
+    cursor: pointer;
+    background-color: #4794f8;
+}
