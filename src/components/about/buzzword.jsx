@@ -6,6 +6,7 @@ import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import DevicesIcon from '@mui/icons-material/Devices';
 import { Typography } from "@mui/material";
 
+
 function BuzzWords() {
 
     const buzzwords = [

@@ -2,6 +2,7 @@ import { Typography, Container } from "@mui/material";
 import React from "react";
 
 
+
 const welcomeStyle = {
     width: '80vw',
     height: '100vh',

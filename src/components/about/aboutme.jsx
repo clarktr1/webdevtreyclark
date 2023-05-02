@@ -1,9 +1,10 @@
 import React from "react";
-import { Container, Typography } from '@mui/material'
+import { Container, Typography, Paper } from '@mui/material'
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 import BuzzWords from './buzzword'
 import TextSphere from "./tagcloud";
 import resume from '../../assets/resume.pdf'
+
 
 
 
@@ -15,8 +16,12 @@ function AboutMe() {
     const aboutTextStyle = {
         marginBottom: '2rem'
     }
+
     return (
-    <>  <Container sx={{margin: '6rem auto'}}>
+    <>  <Container sx={{ backgroundColor: '#1e1e1e', borderRadius: '8px', height:'90vh', width:'90vw'}}>
+            <Paper sx={{backgroundColor: '#3664f8', width:'100%', borderRadius: '8px', marginBottom:'2rem'}}>
+                <Typography component='h2' sx={{textAlign:'center', fontSize:'3rem', color: '#fff', fontWeight:'600', padding:'1.2rem'}}>Who Am I?</Typography>
+            </Paper>
         <BuzzWords />
             <Grid2 container xs={12} maxWidth='80vw' sx={{margin:'0 auto'}}>
                 <Grid2 item xs={12} md={6} sx={{display:'flex', justifyContent:'center'}}>
