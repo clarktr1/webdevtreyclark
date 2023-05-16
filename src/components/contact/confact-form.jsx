@@ -19,14 +19,13 @@ function ContactForm() {
         display: 'flex',
         flexDirection: 'column',
         gap: 16,
-        maxWidth: 400,
+        maxWidth: 600,
         margin: 'auto',
         padding: 16,
-        borderRadius: 8,
+        borderRadius: '8px',
         boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)',
       }}
     >
-      <Typography variant="h5" align="center">Contact Us</Typography>
       <TextField
         label="Name"
         value={name}

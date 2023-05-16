@@ -1,10 +1,12 @@
 {
   "name": "my-app",
+  "homepage": "https://clarktr1.github.op/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
+    "@frank-mayer/react-tag-cloud": "1.1.1",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.12.2",
     "@react-spring/parallax": "^9.7.2",
@@ -12,19 +14,25 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-particles": "^2.9.3",
     "react-scripts": "5.0.1",
     "react-spring": "^9.7.1",
     "react-tsparticles": "^2.9.3",
     "TagCloud": "^2.3.2",
+    "tsparticles": "^2.9.3",
+    "tsparticles-engine": "^2.9.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

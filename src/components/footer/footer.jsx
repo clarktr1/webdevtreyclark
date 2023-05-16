@@ -24,7 +24,7 @@ function Footer() {
 
     return (
         <>
-            <Container sx={{display:'flex', justifyContent:'center', alignItems:'center', height:'20vh'}}>
+            <Container sx={{display:'flex', justifyContent:'center', alignItems:'center', height:'20vh', marginTop:'-10vh' }}>
                 {links.map((link) => {
                     return <a href={link.link} target="_blank"><link.icon sx={{fontSize: '3rem'}} className="social-icon"></link.icon></a>
                 })}
