@@ -3,7 +3,7 @@ import { Container, Typography, Paper } from '@mui/material'
 import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 import BuzzWords from './buzzword'
 import TextSphere from "./tagcloud";
-import Sphere1 from "./sphere1";
+import Sphere1 from "./sphere1.tsx";
 import resume from '../../assets/resume.pdf'
 
 
@@ -41,7 +41,7 @@ function AboutMe() {
     return (
     <>  <Container sx={{ backgroundColor: '#1e1e1e', borderRadius: '8px', width:'90vw'}} id='about'>
             <Container sx={{backgroundColor: '#3664f8', width:'100%', borderRadius: '8px', marginBottom:'1.4rem'}}>
-                <Typography component='h2' sx={{textAlign:'center', fontSize:'3rem', color: '#fff', fontWeight:'600', padding:'1.2rem'}}>Who Am I?</Typography>
+                <Typography component='h2' sx={{textAlign:'center', fontSize:'2.7rem', color: '#fff', fontWeight:'600', padding:'1.2rem'}}>Who Am I?</Typography>
             </Container>
         <BuzzWords />
             <Grid2 container xs={12} maxWidth='80vw' sx={{margin:'0 auto'}}>

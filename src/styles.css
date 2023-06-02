@@ -163,5 +163,11 @@ html {
     #home{
         align-items: normal;
     }
+    .buzz{
+        font-size: 1.2rem !important;
+    }
+    .buzz-caption{
+        font-size: .8rem !important;
+    }
   }
 

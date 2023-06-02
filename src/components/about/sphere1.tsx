@@ -1,19 +1,16 @@
 import React from "react";
 import { TagCloud } from "@frank-mayer/react-tag-cloud";
-// same as: import TagCloud from "@frank-mayer/react-tag-cloud"
 
 const Sphere1 = () => (
 	<TagCloud
-		options={(w: Window & typeof globalThis): TagCloudOptions => ({
-			// radius: Math.min(500, w.innerWidth, w.innerHeight) / 2,
-            radius:160,
+		options={(w: Window & typeof globalThis): any => ({
+            radius:140,
 			maxSpeed: "medium",
 		})}
-		onClick={(tag: string, ev: MouseEvent) => alert(tag)}
 		onClickOptions={{ passive: true }}
 	>
 		{[
-			"HTML",
+		"HTML",
         "CSS",
         "JavaScript",
         "React",

@@ -28,7 +28,7 @@ function BuzzWords() {
         {
             icon: DevicesIcon,
             buzz: 'Responsive',
-            caption: 'Designs user-friendly interfaces with intuitive navigation and interactions.'
+            caption: 'Creates a mobile-friendly environment that enchances the consumer experience.'
         },
     ]
 
@@ -38,8 +38,8 @@ function BuzzWords() {
             {buzzwords.map((buzz) => {
             return  <Grid2 item xs={6} md={3} sx={{textAlign:'center', padding: '3%'}}>
                         <buzz.icon sx={{color: '#4794f8', fontSize: '4.4rem'}}></buzz.icon>
-                        <Typography sx={{fontWeight:'bold', fontSize: '1.7rem', margin: '2rem auto'}}>{buzz.buzz}</Typography>
-                        <Typography>{buzz.caption}</Typography>
+                        <Typography sx={{fontWeight:'bold', fontSize: '1.6rem', margin: '2rem auto'}} className="buzz">{buzz.buzz}</Typography>
+                        <Typography className="buzz-caption">{buzz.caption}</Typography>
                     </Grid2>
             })}
 
