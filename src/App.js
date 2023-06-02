@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useContext } from "react";
 
 import AboutMe from "./components/about/aboutme";
 import Footer from "./components/footer/footer";
@@ -7,9 +7,11 @@ import ProjectList from "./components/projects/projects";
 import Welcome from "./components/welcome/welcome.jsx";
 import Divider from "./components/config/divider";
 import FloatNav from "./components/navbar/floating-nav";
+import LinkedIn from "./components/contact/LinkedIn";
 
 
 function App() {
+
 
     return (
         <>  
@@ -18,6 +20,8 @@ function App() {
             <AboutMe />
                 <Divider />
             <ProjectList />
+                <Divider />
+            <LinkedIn />
                 <Divider />
             <Contact />
         </>

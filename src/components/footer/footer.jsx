@@ -14,7 +14,7 @@ function Footer() {
         },
         {
             icon: LinkedInIcon,
-            link: 'https://www.linkedin.com/in/trey-clark-695a281b6/'
+            link: 'https://www.linkedin.com/in/webdevtreyclark/'
         },
         {
             icon: MySvgIcon,

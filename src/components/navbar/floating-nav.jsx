@@ -5,6 +5,7 @@ import Person from '@mui/icons-material/Person'
 import DocumentScanner from '@mui/icons-material/DocumentScanner'
 import Phone from '@mui/icons-material/Phone'
 import ArrowUpwardRounded from '@mui/icons-material/ArrowUpwardRounded'
+import LinkedIn from '@mui/icons-material/LinkedIn'
 import { useEffect, useState } from "react"
 
 
@@ -23,6 +24,10 @@ function FloatNav() {
         {
             icon: DocumentScanner,
             link: 'project'
+        },
+        {
+            icon: LinkedIn,
+            link: 'linkedin'
         },
         {
             icon: Phone,
@@ -59,13 +64,13 @@ function FloatNav() {
                 <Container  id="navs">
                 {navBtns.map((button) => {
                     return (
-                        <Container key={button.link} sx={{display:'flex', justifyContent:'center', alignItems:'center'}} className="nav-icon">
-                            <a href={`#${button.link}`}>
+                        <a href={`#${button.link}`} key={button.link}>
+                        <Container  sx={{display:'flex', justifyContent:'center', alignItems:'center'}} className="nav-icon">
                                 <button.icon
                                 className="nav-pic">
                                 </button.icon>
-                            </a>
                         </Container>
+                        </a>
                         
                     )
                 })}
