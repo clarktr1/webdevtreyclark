@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/webdevtreyclark/static/css/main.f09b2082.css",
-    "main.js": "/webdevtreyclark/static/js/main.d6957f0d.js",
+    "main.js": "/webdevtreyclark/static/js/main.c931d042.js",
     "static/media/template1.png": "/webdevtreyclark/static/media/template1.d02f823cf3a2e3d76c19.png",
+    "static/media/food.png": "/webdevtreyclark/static/media/food.242cb7161bf75a2576c7.png",
     "static/media/sps.png": "/webdevtreyclark/static/media/sps.44f5af4954ecbf0d73f3.png",
     "static/media/resume.pdf": "/webdevtreyclark/static/media/resume.ffd489d81c1c3c5a47e1.pdf",
     "static/media/Jolt.png": "/webdevtreyclark/static/media/Jolt.6003b1501873a6c67365.png",
     "static/media/takenote.png": "/webdevtreyclark/static/media/takenote.050f83cc6360df2c14bf.png",
     "static/media/hex-gen.png": "/webdevtreyclark/static/media/hex-gen.1662b2577909dc848ecd.png",
+    "static/media/lol.jpg": "/webdevtreyclark/static/media/lol.351e547e82e96279f5a7.jpg",
+    "static/media/farts.jpg": "/webdevtreyclark/static/media/farts.db7f4f3c7fe187d82444.jpg",
     "static/media/techblog.png": "/webdevtreyclark/static/media/techblog.0ca2f4fb8ad843677d94.png",
     "index.html": "/webdevtreyclark/index.html",
     "main.f09b2082.css.map": "/webdevtreyclark/static/css/main.f09b2082.css.map",
-    "main.d6957f0d.js.map": "/webdevtreyclark/static/js/main.d6957f0d.js.map"
+    "main.c931d042.js.map": "/webdevtreyclark/static/js/main.c931d042.js.map"
   },
   "entrypoints": [
     "static/css/main.f09b2082.css",
-    "static/js/main.d6957f0d.js"
+    "static/js/main.c931d042.js"
   ]
 }
